@@ -239,7 +239,7 @@
   </Item>
   <Item>
     <ID>Egg</ID>
-    <Name>euf</Name>
+    <Name>oeuf</Name>
     <Description>Un [ITEM_NAME] cru.</Description>
     <ObtainDescription>Pondu par une emeu femelle</ObtainDescription>      
     <Effect>
@@ -418,8 +418,8 @@
   </Item>
   <Item>
     <ID>Bolt</ID>
-    <Name>bolt</Name>
-    <ObtainDescription>Woven with a Loom</ObtainDescription>
+    <Name>rouleau</Name>
+    <ObtainDescription>Fabrique par le tailleur</ObtainDescription>
     <GroupName>bolt of cloth</GroupName>
     <HasQuality>false</HasQuality>
     <WeaponSize>0</WeaponSize>
@@ -443,8 +443,8 @@
   </Item>
   <Item>
     <ID>Rod</ID>
-    <Name>rod</Name>
-    <ObtainDescription>Crafted in a Machine shop</ObtainDescription>
+    <Name>barre</Name>
+    <ObtainDescription>Obtenu par un atelier</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>30</WeaponSize>
     <SpriteID>
@@ -453,8 +453,8 @@
   </Item>
   <Item>
     <ID>Gear</ID>
-    <Name>gear</Name>
-    <ObtainDescription>Crafted in a Machine shop</ObtainDescription>
+    <Name>engrenage</Name>
+    <ObtainDescription>Obtenu par un atelier</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>20</WeaponSize>
     <SpriteID>
@@ -463,8 +463,8 @@
   </Item>
   <Item>
     <ID>Spring</ID>
-    <Name>spring</Name>
-    <ObtainDescription>Crafted in a Machine shop</ObtainDescription>
+    <Name>ressort</Name>
+    <ObtainDescription>Obtenu par un atelier</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -473,8 +473,8 @@
   </Item>
   <Item>
     <ID>PetRock</ID>
-    <Name>pet rock</Name>
-    <Description>[AN_ITEM_NAME].  Friendship guaranteed.</Description>
+    <Name>pierre taillee</Name>
+    <Description>[AN_ITEM_NAME].  Amitiee garentie.</Description>
     <Value>25</Value>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -483,8 +483,8 @@
   </Item>
   <Item>
     <ID>PuzzleBox</ID>
-    <Name>puzzle box</Name>
-    <Description>[AN_ITEM_NAME].  It is actually impossible to open.</Description>
+    <Name>boite puzzle</Name>
+    <Description>[AN_ITEM_NAME].  Il est actuellement impossible de l ouvrir.</Description>
     <Value>25</Value>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -494,8 +494,8 @@
   <Item>
     <ID>CommemorativeCoin</ID>
     <Prefix>commemorative</Prefix>
-    <Name>coin</Name>
-    <Description>[AN_ITEM_NAME].  Celebrate the occasion with a coin.</Description>
+    <Name>piece</Name>
+    <Description>[AN_ITEM_NAME].  Celebre les occasions avec une piece.</Description>
     <Value>25</Value>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -505,7 +505,7 @@
   <Item>
     <ID>Statuette</ID>
     <Name>statuette</Name>
-    <Description>[AN_ITEM_NAME].  Exactly like a statue but smaller.</Description>
+    <Description>[AN_ITEM_NAME].  Exactement comme une statue mais plus petite.</Description>
     <Value>25</Value>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -620,7 +620,7 @@
   <Item>
     <ID>MechanicalWall</ID>
     <Name>mur mecanique</Name>
-    <Description>[AN_ITEM_NAME].  Converts to a wall when power is provided.</Description>
+    <Description>[AN_ITEM_NAME].  Remplace un mur s active avec de l energie.</Description>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -631,7 +631,7 @@
   <Item>
     <ID>Hatch</ID>
     <Name>trappe</Name>
-    <Description>[AN_ITEM_NAME].  Converts to a floor when power is provided.</Description>
+    <Description>[AN_ITEM_NAME].  Remplace le sol s active avec de l energie.</Description>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -646,7 +646,7 @@
   <Item>
     <ID>SpikeTrap</ID>
     <Name>piege a pieux</Name>
-    <Description>un piege qu'il faut re-armer lorsqu'il a ete declenche</Description>
+    <Description>un piege qu'il faut re-armer lorsqu il a ete declenche</Description>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -660,7 +660,7 @@
   <Item>
     <ID>BladeTrap</ID>
     <Name>piege a lames</Name>
-    <Description>un piege qu'il faut re-armer lorsqu'il a ete declenche</Description>
+    <Description>un piege qu'il faut re-armer lorsqu il a ete declenche</Description>
     <ObtainDescription>Fabrique dans l'atelier d'un ingenieur</ObtainDescription>
     <WeaponSize>10</WeaponSize>
     <SpriteID>
@@ -1709,7 +1709,7 @@
   <Item>
     <ID>Workbench</ID>
     <Name>plan de travail</Name>
-    <ObtainDescription>Crafted at a Crude Workbench or a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique a l atelier brut ou l atelier d un charpentier</ObtainDescription>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1719,7 +1719,7 @@
   <Item>
     <ID>Chisel</ID>
     <Name>burin</Name>
-    <ObtainDescription>Crafted at a Crude Workbench or a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique a l atelier brut ou l atelier d un macon</ObtainDescription>
     
     <BaseValue>1</BaseValue>
     <HasQuality>false</HasQuality>
@@ -1731,7 +1731,7 @@
   <Item>
     <ID>Stick</ID>
     <Name>baton</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l atelier du charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>50</WeaponSize>
@@ -1741,8 +1741,8 @@
   </Item>
   <Item>
     <ID>Loom</ID>
-    <Name>rouet</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <Name>metier a tisser</Name>
+    <ObtainDescription>Fabrique dans l atelier du charpentier</ObtainDescription>
     
     <WeaponSize>1000</WeaponSize>
     <SpriteID>
@@ -1756,7 +1756,7 @@
   <Item>
     <ID>Hilt</ID>
     <Name>poignee</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l atelier du charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1767,7 +1767,7 @@
   <Item>
     <ID>StoneKnifeBlade</ID>
     <Name>lame de couteau</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l atlier du macon</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -1778,7 +1778,7 @@
   <Item>
     <ID>Knife</ID>
     <Name>couteau</Name>
-    <ObtainDescription>Crafted in a Stonemason's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l atelier du macon</ObtainDescription>
     
     <WeaponSize>50</WeaponSize>
     <CombatRatingModifier>1</CombatRatingModifier>
@@ -2082,7 +2082,7 @@
   <Item>
     <ID>SwordBlade</ID>
     <Name>lame d'epee</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2093,7 +2093,7 @@
   <Item>
     <ID>HandAxeHead</ID>
     <Name>tete de hache de guerre</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2104,7 +2104,7 @@
   <Item>
     <ID>HammerHead</ID>
     <Name>tete de masse d'arme</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2115,7 +2115,7 @@
   <Item>
     <ID>ClaymoreBlade</ID>
     <Name>lame de claymore</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2126,7 +2126,7 @@
   <Item>
     <ID>BattleAxeHead</ID>
     <Name>tete de hache de guerre 2mains</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2137,7 +2137,7 @@
   <Item>
     <ID>WarhammerHead</ID>
     <Name>tete de masse d'armes 2mains</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2148,7 +2148,7 @@
   <Item>
     <ID>ShieldBoss</ID>
     <Name>umbo de bouclier</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2159,7 +2159,7 @@
   <Item>
     <ID>ShieldBacking</ID>
     <Name>corps de bouclier</Name>
-    <ObtainDescription>Crafted in a Weaponsmith's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans une armurerie</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2192,7 +2192,7 @@
   <Item>
     <ID>ArmorPlate</ID>
     <Name>blindage</Name>
-    <ObtainDescription>CFabrique dans un atelier d'armurier</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier d'armurier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>20</WeaponSize>
@@ -2203,7 +2203,7 @@
   <Item>
     <ID>PistolStock</ID>
     <Name>corps de pistolet a silex</Name>
-    <ObtainDescription>Crafted in a Carpenter's workshop</ObtainDescription>
+    <ObtainDescription>Fabrique dans l atelier du charpentier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
@@ -2214,7 +2214,7 @@
   <Item>
     <ID>PistolBarrel</ID>
     <Name>canon de pistolet a silex</Name>
-    <ObtainDescription>Crafted in a Machine Shop</ObtainDescription>
+    <ObtainDescription>Fabrique dans un atelier</ObtainDescription>
     
     <HasQuality>false</HasQuality>
     <WeaponSize>10</WeaponSize>
